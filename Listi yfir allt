@@ -22,3 +22,14 @@ WR2:
     Wide channel: Auto
     ssid: Home2
     passphrase: Lykilord
+
+R_ISP:
+  G0/0 
+    ip address: 61.134.98.69
+    subnet mask: 255.255.255.0
+  G0/1
+    ip address: 197.94.173.202
+    subnet mask: 255.255.255.0
+  G0/2
+    ip address: 105.248.187.51
+    subnet mask: 255.255.255.0
