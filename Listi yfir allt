@@ -1,27 +1,36 @@
-WR1:
-  setup:
-    ip address: 192.168.0.1
+Home 1:
+  WR1:
+    setup:
+      ip address: 192.168.0.1
+      subnet mask: 255.255.255.0
+    Wireless:
+      security mode : wpa2 personal
+      network mode: mixed
+      radio band: Auto
+      Wide channel: Auto
+      ssid: Home1
+      passphrase: password
+  Server:
+    ip address : 192.168.0.9
     subnet mask: 255.255.255.0
-  Wireless:
-    security mode : wpa2 personal
-    network mode: mixed
-    radio band: Auto
-    Wide channel: Auto
-    ssid: Home1
-    passphrase: password
-
-
-WR2:
-  setup:
-    ip address:192.168.0.100
-    subnet mask:255.255.255.0
-  Wireless:
-    security mode : wpa2 personal
-    network mode: mixed
-    radio band: Auto
-    Wide channel: Auto
-    ssid: Home2
-    passphrase: Lykilord
+      
+      
+Home2:      
+  WR2:
+    setup:
+      ip address:192.168.0.100
+      subnet mask:255.255.255.0
+    Wireless:
+      security mode : wpa2 personal
+      network mode: mixed
+      radio band: Auto
+      Wide channel: Auto
+      ssid: Home2
+      passphrase: Lykilord
+Server:
+  ip address : 192.168.0.103
+  subnet mask: 255.255.255.0
+      
 
 R_ISP:
   G0/0 
