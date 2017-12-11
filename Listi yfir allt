@@ -46,3 +46,23 @@ R_ISP:
   G0/2
     ip address: 105.248.187.51
     subnet mask: 255.255.255.0
+  Host-name
+    R_ISP
+  Domain-name 
+    Lokaverkefni.is
+  ssh username
+    admin
+  ssh password
+    taek
+  Rsa key:
+    1024 bit
+  password cisco
+  password class
+S_ISP:
+  hostname:
+    R_ISP
+  domain-nameÞ
+    (vantar)
+  password: password
+  enable password:
+    class
